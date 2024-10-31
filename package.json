@@ -1,5 +1,5 @@
 {
-  "name": "expo-three",
+  "name": "bcm-expo-three",
   "version": "8.0.0",
   "sideEffects": true,
   "description": "Utilities for using THREE.js with Expo",
@@ -14,17 +14,6 @@
     "url": "https://github.com/expo/expo-three/issues"
   },
   "scripts": {
-    "build": "expo-module build",
-    "clean": "expo-module clean",
-    "test": "expo-module test",
-    "lint": "expo-module lint",
-    "prepare": "expo-module prepare",
-    "prepublishOnly": "expo-module prepublishOnly",
-    "expo-module": "expo-module",
-    "open:ios": "open -a \"Xcode\" example/ios",
-    "open:android": "open -a \"Android Studio\" example/android",
-    "android": "expo run:android",
-    "ios": "expo run:ios"
   },
   "contributors": [
     "Evan Bacon <bacon@expo.io> (https://github.com/evanbacon)"
@@ -55,7 +44,7 @@
     "expo-file-system": "*",
     "expo-gl": "*",
     "react-native": "*",
-    "three": "^0.166.0"
+    "three": "^0.162.0"
   },
   "devDependencies": {
     "@types/react": "~18.2.45",
