@@ -1,5 +1,5 @@
 {
-  "name": "bcm-expo-three",
+  "name": "@bcm/expo-three",
   "version": "8.0.0",
   "sideEffects": true,
   "description": "Utilities for using THREE.js with Expo",
